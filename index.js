@@ -7,7 +7,7 @@ require("./course")
 const Course = mongoose.model("Course");
 
 
-mongoose.connect("mongodb+srv://sooa_mongo_admin:CbfRdzY1dULYKIiE@sooa-mongo-cluster.lrlq0px.mongodb.net/?retryWrites=true&w=majority", ()=>{
+mongoose.connect("mongodb+srv://USER:PASSWORD@sooa-mongo-cluster.lrlq0px.mongodb.net/?retryWrites=true&w=majority", ()=>{
     console.log("Database is connected");
 }
 );
